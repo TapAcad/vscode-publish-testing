@@ -1,0 +1,15 @@
+language: node_js
+git:
+  depth: 5
+matrix:
+  fast_finish: true
+
+jobs:
+  include:
+    - stage: publish
+      if: repo =~ ^JimiC AND tag IS present AND type = push
+      os: linux
+      node_js: 7.9.0
+      before_script: npm i vsce --no-save
+      script: vsce publish $TRAVIS_TAG -p $VSCE_TOKEN
+      after_success:
