@@ -1,0 +1,46 @@
+{
+    "preview": true,
+    "name": "vscode-publish-testing",
+    "displayName": "Publish Testing",
+    "version": "1.0.0",
+    "description": "A repo to test publishing to Visual Studio Code Markteplace",
+    "publisher": "jimic",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JimiC/vscode-publish-testing.git"
+    },
+    "author": {
+        "email": "jimikar@gmail.com",
+        "name": "Jimi (Dimitris) Charalampidis"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "vscode",
+        "publish",
+        "test"
+    ],
+    "engines": {
+        "vscode": "^1.8.1"
+    },
+    "bugs": {
+        "url": "https://github.com/JimiC/vscode-publish-testing/issues"
+    },
+    "homepage": "https://github.com/JimiC/vscode-publish-testing#readme",
+    "main": "",
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#c8c8c8"
+    },
+    "scripts": {
+        "postinstall": "vscode-install",
+        "vscode:prepublish": "",
+        "vscode:uninstall": ""
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "vscode": "^1.1.18"
+    }
+}
