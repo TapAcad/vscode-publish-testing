@@ -30,7 +30,7 @@
     },
     "homepage": "https://github.com/JimiC/vscode-publish-testing#readme",
     "main": "",
-    "icon": "images/logo.png",
+    "icon": "",
     "galleryBanner": {
         "color": "#c8c8c8"
     },

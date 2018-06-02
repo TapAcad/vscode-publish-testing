@@ -11,5 +11,5 @@ jobs:
       os: linux
       node_js: 7.9.0
       before_script: npm i vsce --no-save
-      script: vsce publish $TRAVIS_TAG -p $VSCE_TOKEN
+      script: vsce publish -p $VSCE_TOKEN
       after_success:
