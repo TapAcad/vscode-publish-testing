@@ -2,7 +2,7 @@
     "preview": true,
     "name": "vscode-publish-testing",
     "displayName": "Publish Testing",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A repo to test publishing to Visual Studio Code Markteplace",
     "publisher": "jimic",
     "license": "MIT",
